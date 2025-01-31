@@ -1,0 +1,40 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-01-23 09:32:00.368391",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "subtasks",
+  "status"
+ ],
+ "fields": [
+  {
+   "fieldname": "subtasks",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "SubTasks",
+   "options": "SubTasks List"
+  },
+  {
+   "fetch_from": "subtasks.status",
+   "fieldname": "status",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Status"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-01-30 06:21:52.826948",
+ "modified_by": "Administrator",
+ "module": "Task and Project",
+ "name": "Subtasks",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

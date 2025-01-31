@@ -1,0 +1,28 @@
+{
+ "add_total_row": 0,
+ "columns": [],
+ "creation": "2025-01-21 08:51:34.137791",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "modified": "2025-01-30 06:23:38.222667",
+ "modified_by": "Administrator",
+ "module": "Task and Project",
+ "name": "Task Status Report",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "query": "SELECT\n \n    task_name,\n \n    assigned_to,\n \n    status,\n \n    start_date,\n \n    end_date,\n \n    completion_date\n \nFROM\n \n    `tabTasks`\n \nWHERE\n \n    (%(status)s IS NULL OR %(status)s = '' OR status = COALESCE(%(status)s, status))\n",
+ "ref_doctype": "Tasks",
+ "report_name": "Task Status Report",
+ "report_script": "",
+ "report_type": "Script Report",
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ]
+}

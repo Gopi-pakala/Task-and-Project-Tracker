@@ -1,0 +1,37 @@
+{
+ "attach_print": 0,
+ "channel": "Email",
+ "condition": "doc.alert == 1",
+ "creation": "2025-01-28 06:54:08.275717",
+ "date_changed": "end_date",
+ "days_in_advance": -1,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Tasks",
+ "enabled": 1,
+ "event": "Value Change",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "This is a reminder that the following task is due within the next 24 hours",
+ "method": "\"after_insert\"",
+ "modified": "2025-01-31 08:24:43.495627",
+ "modified_by": "Administrator",
+ "module": "Task and Project",
+ "name": "Due Date in 24 hours",
+ "owner": "Administrator",
+ "property_value": "",
+ "recipients": [
+  {
+   "condition": "",
+   "receiver_by_document_field": "assigned_to",
+   "receiver_by_role": "PRJ - Employee"
+  }
+ ],
+ "send_system_notification": 0,
+ "send_to_all_assignees": 0,
+ "sender": "Gopinadh Pakala",
+ "sender_email": "gopi.pakala12@gmail.com",
+ "set_property_after_alert": "",
+ "subject": "Reminder: Task 'Due' in 24 Hours",
+ "value_changed": "alert"
+}

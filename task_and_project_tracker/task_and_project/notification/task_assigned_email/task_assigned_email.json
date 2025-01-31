@@ -1,0 +1,31 @@
+{
+ "attach_print": 0,
+ "channel": "Email",
+ "condition": "doc.assigned_to and doc.status == \"Pending\"",
+ "creation": "2025-01-28 06:52:50.954243",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Tasks",
+ "enabled": 1,
+ "event": "Save",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "Hello,\nYou have been assigned a new task.",
+ "modified": "2025-01-31 08:31:16.341484",
+ "modified_by": "Administrator",
+ "module": "Task and Project",
+ "name": "Task Assigned Email",
+ "owner": "Administrator",
+ "recipients": [
+  {
+   "receiver_by_document_field": "assigned_to",
+   "receiver_by_role": "SN - Agent"
+  }
+ ],
+ "send_system_notification": 0,
+ "send_to_all_assignees": 0,
+ "sender": "Gopinadh Pakala",
+ "sender_email": "gopi.pakala12@gmail.com",
+ "subject": "New Task Assigned"
+}

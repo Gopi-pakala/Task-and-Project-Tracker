@@ -123,6 +123,11 @@ app_license = "MIT"
 # 		"on_trash": "method"
 # 	}
 # }
+doc_events = {
+    "Tasks": {
+        "on_update": "task_and_project_tracker.task_and_project.doctype.tasks.tasks.update_status_based_on_subtasks"
+    }
+}
 
 # Scheduled Tasks
 # ---------------
@@ -144,6 +149,11 @@ app_license = "MIT"
 # 		"task_and_project_tracker.tasks.monthly"
 # 	],
 # }
+scheduler_events = {
+    "cron": {
+        "0 0 * * 0": ["task_and_project_tracker.tasks.check_and_send_project_notifications"]
+    }
+}
 
 # Testing
 # -------

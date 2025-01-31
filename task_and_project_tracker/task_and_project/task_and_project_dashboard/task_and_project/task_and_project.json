@@ -1,0 +1,30 @@
+{
+ "cards": [
+  {
+   "card": "Active Project"
+  },
+  {
+   "card": "Overdue Tasks"
+  },
+  {
+   "card": "Milestones nearing Deadlines"
+  }
+ ],
+ "charts": [
+  {
+   "width": "Half"
+  }
+ ],
+ "creation": "2025-01-22 11:34:50.215234",
+ "dashboard_name": "Task and Project",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "modified": "2025-01-31 08:43:06.907196",
+ "modified_by": "Administrator",
+ "module": "Task and Project",
+ "name": "Task and Project",
+ "owner": "Administrator"
+}
